@@ -19,11 +19,12 @@ public class UniqueNumbers {
 
         int[] uniqueNumbers = new int[numbers.length];
         // Find unique numbers in numbers
-        boolean found = false;
+       
         int next = 0;
         for (int i=0;i<uniqueNumbers.length; i++){
+           boolean found = false;
           for(int j=0; j<numbers.length;j++){
-          if(uniqueNumbers[i]==numbers[i]){
+          if(uniqueNumbers[j]==numbers[i]){
             found = true;
             break;
 
