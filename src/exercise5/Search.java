@@ -21,7 +21,7 @@ public class Search {
 
         int numberIndex = -1;
         for (int index = 0; index < numbers.length; index++) {
-            numbers[index] = input.nextInt();
+          
             if(numbers[index]==number){
               numberIndex= index;
               break;
